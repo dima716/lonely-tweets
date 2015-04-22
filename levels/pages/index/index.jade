@@ -1,12 +1,8 @@
-doctype html
-html(lang="en")
-  head
-    title= "Project stub"
-    link(rel="stylesheet" href="index.css")
-  body
-    .logo
-      img(width="250" height="200" src='b.svg' class="logo__image")
-      h1(class="logo__text").
-        Congrutilations, bro!
-        You've just set up a project stub for making web sites with BEM methodology
-    script(src="index.js")
+extends ../layout.jade
+
+block content
+  .logo
+    img(width="250" height="200" src='img/b.svg' class="logo__image")
+    h1(class="logo__text").
+      Congrutilations, bro!
+      You've just set up a project stub for making web sites with BEM methodology
