@@ -1,0 +1,17 @@
+.notification {
+  display: none;
+  height: 75px;
+  line-height: 75px;
+  cursor: pointer;
+  background-color: #008AB8;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 19px;
+  text-align: center;
+  transition: all .5s ease;
+
+  &:hover {
+    background-color: #ddd;
+    color: #008AB8;
+  }
+}

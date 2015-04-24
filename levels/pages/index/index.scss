@@ -1,8 +1,7 @@
-$body-bg-color: #279B61;
-$font-color: #fff;
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300&subset=cyrillic");
 
-body {
-  background-color: $body-bg-color;
-  color: $font-color;
-  text-align: center;
+* {
+    box-sizing: border-box;
 }

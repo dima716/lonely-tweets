@@ -1,8 +1,19 @@
 extends ../layout.jade
 
 block content
-  .logo
-    img(width="250" height="200" src='img/b.svg' class="logo__image")
-    h1(class="logo__text").
-      Congrutilations, bro!
-      You've just set up a project stub for making web sites with BEM methodology
+  header.header
+    .header__content
+      .header__column.header__column_side_left
+        .logo
+          i.fa.fa-frown-o.logo__icon
+          .logo__text Одинокие твиты
+      .header__column.header__column_side_right
+        .intro
+          .intro__column
+            p.intro__text Интернет дал нам возможность общаться без рамок и границ, находить новых друзей в любой точке планеты. Мы можем делиться нашими мыслями, чувствами, переживаниями.
+            p.intro__text Но слышат ли нас, а самое главное - хотят ли услышать ?
+          .intro__column
+            p.intro__text Одинокие твиты - твиты людей, которые содержат слова "одинокий", "я одинок", "одиночество" и другие похожие варианты.
+            p.intro__text В качестве фона для каждого твита используется  изображение шапки пользователя.
+  main
+    // Твиты рендерятся здесь

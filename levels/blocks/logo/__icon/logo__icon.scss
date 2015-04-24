@@ -1,0 +1,26 @@
+.logo__icon {
+  position: relative;
+  display: block;
+  text-align: center;
+  line-height: 200px;
+
+  font-size: 225px;
+  color: #008AB8;
+  margin: auto;
+  margin-bottom: 5px;
+
+  &:after {
+    content: '';
+    background-image: url(img/tear.png);
+    width: 15px;
+    height: 24px;
+    position: absolute;
+    top: 85px;
+    left: 155px;
+    animation: tear 3s ease infinite;
+  }
+}
+
+@keyframes tear {
+    100% { top: 95px; opacity: 0 }
+}

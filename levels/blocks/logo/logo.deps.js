@@ -1,5 +1,5 @@
 module.exports = {
     expect: [
-        { elems: ['image', 'text'] }
+        { elems: ['icon', 'text'] }
     ]
 };
