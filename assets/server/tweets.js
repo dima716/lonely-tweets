@@ -1,9 +1,9 @@
 var twit = require('twitter'),
 twitter = new twit({
-    consumer_key: 'JGw7h7COklLIKN23tqNy709Wb',
-    consumer_secret: 'Y2UFo3wYPLR7dKvXR8EeyyIW64MooGopP4V432i7saaixhU6GX',
-    access_token_key: '2752268208-0nTVj8m9ZnXKlc8cbFDGOeg2GqY2dvcwlT0jM8D',
-    access_token_secret: 'D8Hyek382rdLMgTDVklyVIl1L38zoESjJCSkfMpbc1Ssw'
+  consumer_key: process.env.consumer_key,
+  consumer_secret: process.env.consumer_secret,
+  access_token_key: process.env.access_token_key,
+  access_token_secret: process.env.access_token_secret
 }),
 express = require('express'),
 app = express(),
