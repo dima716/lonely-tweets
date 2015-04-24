@@ -2,6 +2,15 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans&subset=cyrillic");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300&subset=cyrillic");
 
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
 * {
     box-sizing: border-box;
 }

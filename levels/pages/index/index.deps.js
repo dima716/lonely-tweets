@@ -4,5 +4,6 @@ module.exports.expect = [
   'intro',
   'logo',
   'notification',
+  'content',
   'tweet'
 ];
